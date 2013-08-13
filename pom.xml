@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+				<modelVersion>4.0.0</modelVersion>
+	<artifactId>downsample</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Downsample Implementation in Java</name>
+	<description>Implementation of the Largest-Triangle-Three-Buckets algorithm described by Sveinn Steinarsson in his masters thesis at the university of Iceland.</description>
+	<groupId>eu.bengreen</groupId>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.6</java.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.0.14</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
