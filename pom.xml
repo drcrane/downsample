@@ -21,4 +21,21 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ssh-external</artifactId>
+				<version>2.4</version>
+			</extension>
+		</extensions>
+	</build>
+	
+	<distributionManagement>
+		<repository>
+			<id>ssh-repository-bengreen.eu</id>
+			<url>scpexe://ben@www.bengreen.eu/home/ben/public_html/maven/3.0/repo</url>
+		</repository>
+	</distributionManagement>
 </project>
